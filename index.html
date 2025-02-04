@@ -17,11 +17,9 @@
           <li class="nav-item">
             <a href="#" class="nav-link nav-link_active">главная</a>
           </li>
-          <li class="nav-bullet">○</li>
           <li class="nav-item">
             <a href="#" class="nav-link">посмотреть лоты</a>
           </li>
-          <li class="nav-bullet">○</li>
           <li class="nav-item">
             <a href="#" class="nav-link">об аукционе</a>
           </li>
@@ -31,8 +29,8 @@
         <img src="./images/logo-black.svg" alt="Логотип компании" />
       </a>
       <address class="contact">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="contact-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contact-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
@@ -60,52 +58,58 @@
             <span>не</span>
             <span>верил</span>
           </p>
-          <a href="#" class="cover__button">СДЕЛАТЬ СТАВКУ</a>
+          <a href="#" class="cover__button">сделать ставку</a>
         </div>
       </section>
 
       <!-- Секция с лотами -->
       <section class="lots">
-        <h2 class="subtitle">ЛОТЫ</h2>
+        <h2 class="subtitle">лоты</h2>
         <div class="lots__grid">
-          <div class="lots__item overlay">
-            <a href="#" class="lots__item-title">
-              ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ
-            </a>
-            <p class="lots__item-description">
-              Не&nbsp;просто бросил, а&nbsp;ушёл с&nbsp;первой лекции. Какой
-              была&nbsp;бы ваша ставка, если&nbsp;бы вы&nbsp;не&nbsp;знали, что
-              режиссёр&nbsp;&mdash; Пол Томас Андерсон?
-            </p>
-          </div>
-          <div class="lots__item overlay">
-            <a href="#" class="lots__item-title">
-              КНИГА, ГДЕ ОПИСАН ОДИН СКУЧНЫЙ ДЕНЬ ИЗ ЖИЗНИ РЕКЛАМНОГО АГЕНТА
-            </a>
-            <p class="lots__item-description">
-              Объёмом почти в&nbsp;тысячу страниц. Иногда без знаков препинания
-              и&nbsp;с&nbsp;переходами на&nbsp;древнеанглийский. В&nbsp;ней
-              одновременно рассказывается о&nbsp;16&nbsp;июня 1904 года
-              и&nbsp;об&nbsp;истории литературы, начиная с&nbsp;античных времён.
-              И&nbsp;это всё накладывается на&nbsp;эпическую поэму Гомера.
-              Сколько&nbsp;бы вы&nbsp;поставили на&nbsp;&laquo;Улисса&raquo;
-              Джеймса Джойса?
-            </p>
-          </div>
-          <div class="lots__item overlay">
-            <a href="#" class="lots__item-title">
-              КАРТИНА, КОТОРУЮ ПОВТОРИТ ДАЖЕ 5-ЛЕТНИЙ СЫН МАМИНОЙ ПОДРУГИ
-            </a>
-            <p class="lots__item-description">
-              Ну&nbsp;действительно, там линия, тут кружочек, а&nbsp;здесь
-              и&nbsp;вовсе что-то похожее на&nbsp;инфузорию-туфельку. Никаких
-              полей, лесов, котиков... Сколько&nbsp;бы вы&nbsp;на&nbsp;такое
-              поставили, если&nbsp;бы не&nbsp;знали, что это&nbsp;&mdash; одна
-              из&nbsp;революционных работ Кандинского?
-            </p>
-          </div>
-          <a href="#" class="lots__item-link">посмотреть больше</a>
+          <a href="#" class="lots__link lots__link_film overlay">
+            <div class="lots__item">
+              <h3 class="lots__item-title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="lots__item-description">
+                Не&nbsp;просто бросил, а&nbsp;ушёл с&nbsp;первой лекции. Какой
+                была&nbsp;бы ваша ставка, если&nbsp;бы вы&nbsp;не&nbsp;знали,
+                что режиссёр&nbsp;&mdash; Пол Томас Андерсон?
+              </p>
+            </div>
+          </a>
+          <a href="#" class="lots__link lots__link_book overlay">
+            <div class="lots__item">
+              <h3 class="lots__item-title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="lots__item-description">
+                Объёмом почти в&nbsp;тысячу страниц. Иногда без знаков
+                препинания и&nbsp;с&nbsp;переходами на&nbsp;древнеанглийский.
+                В&nbsp;ней одновременно рассказывается о&nbsp;16&nbsp;июня 1904
+                года и&nbsp;об&nbsp;истории литературы, начиная с&nbsp;античных
+                времён. И&nbsp;это всё накладывается на&nbsp;эпическую поэму
+                Гомера. Сколько&nbsp;бы вы&nbsp;поставили
+                на&nbsp;&laquo;Улисса&raquo; Джеймса Джойса?
+              </p>
+            </div>
+          </a>
+          <a href="#" class="lots__link lots__link_picture overlay">
+            <div class="lots__item">
+              <h3 class="lots__item-title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="lots__item-description">
+                Ну&nbsp;действительно, там линия, тут кружочек, а&nbsp;здесь
+                и&nbsp;вовсе что-то похожее на&nbsp;инфузорию-туфельку. Никаких
+                полей, лесов, котиков... Сколько&nbsp;бы вы&nbsp;на&nbsp;такое
+                поставили, если&nbsp;бы не&nbsp;знали, что это&nbsp;&mdash; одна
+                из&nbsp;революционных работ Кандинского?
+              </p>
+            </div>
+          </a>
         </div>
+        <a href="#" class="lots__item-more">посмотреть больше</a>
       </section>
 
       <!-- Секция "Об аукционе" -->
@@ -114,7 +118,7 @@
           <img src="./images/logo-white.svg" alt="Логотип компании" />
         </div>
         <div class="about__content-container">
-          <h2 class="subtitle">ОБ АУКЦИОНЕ</h2>
+          <h2 class="subtitle">Об аукционе</h2>
           <p class="about__text">
             Здесь вы&nbsp;не&nbsp;встретите очередное пафосное собрание
             невероятно дорогого антиквариата. Наши лоты вообще не&nbsp;должны
@@ -138,8 +142,8 @@
     <!-- Футер -->
     <footer class="footer">
       <address class="contact">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="contact-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contact-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
@@ -155,17 +159,23 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__socials">
-        <a href="#" class="social-icon">
-          <img src="./images/yt.svg" alt="Логотип YouTube" />
-        </a>
-        <a href="#" class="social-icon">
-          <img src="./images/vk.svg" alt="Логотип VK" />
-        </a>
-        <a href="#" class="social-icon">
-          <img src="./images/pinterest.svg" alt="Логотип Pinterest" />
-        </a>
-      </div>
+      <ul class="footer__socials">
+        <li>
+          <a href="#" class="social-icon">
+            <img src="./images/yt.svg" alt="Логотип YouTube" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="./images/vk.svg" alt="Логотип VK" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="./images/pinterest.svg" alt="Логотип Pinterest" />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
